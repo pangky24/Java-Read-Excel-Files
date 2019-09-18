@@ -18,12 +18,10 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  * Hello world!
  *
  */
-public class App 
-{
-	public static final String EXCEL_FILE_PATH = "./readable_writable_excel.xlsx";
+public class App {
+	public static final String EXCEL_FILE_PATH = "D:\\phg_project\\Java-Read-Excel-Files\\src\\main\\resources\\master.xlsx";
 	
-    public static void main( String[] args ) throws EncryptedDocumentException, InvalidFormatException, IOException
-    {
+    public static void main( String[] args ) throws EncryptedDocumentException, InvalidFormatException, IOException {
         // System.out.println( "Hello World!" );
     	// Creating a Workbook from an Excel file (.xls or .xlsx)
         Workbook workbook = WorkbookFactory.create(new File(EXCEL_FILE_PATH));
